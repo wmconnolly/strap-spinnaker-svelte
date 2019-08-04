@@ -1,11 +1,16 @@
 <script>
-	export let name;
+  let greatThings = ["You", "will", "do", "great", "things!"];
 </script>
 
 <style>
-	h1 {
-		color: purple;
-	}
+
 </style>
 
-<h1>Hello {name}!</h1>
+<div class="row">
+  <div class="col d-flex justify-content-around text-indigo-500 shadow">
+    {#each greatThings as word}
+      <p class="d-inline-block">{word}</p>
+    {/each}
+  </div>
+
+</div>
