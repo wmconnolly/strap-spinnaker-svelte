@@ -1,6 +1,7 @@
+# Svelte 3 as you know it, but including Bootstrap 4.1.3 minified, as well as 'Spinnaker'; utilities from Tailwind CSS which compliment Bootstrap nicely!
+
 *Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
----
 
 # svelte app
 
@@ -9,8 +10,8 @@ This is a project template for [Svelte](https://svelte.dev) apps. It lives at ht
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
+npx degit wmconnolly/strap-spinnaker-svelte
+cd strap-spinnaker-svelte
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
@@ -21,7 +22,7 @@ cd svelte-app
 Install the dependencies...
 
 ```bash
-cd svelte-app
+cd strap-spinnaker-svelte
 npm install
 ```
 

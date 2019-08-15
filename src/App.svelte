@@ -7,7 +7,7 @@
 </style>
 
 <div class="row">
-  <div class="col d-flex justify-content-around text-indigo-500 shadow">
+  <div class="col mt-3 d-flex justify-content-around text-indigo-500 shadow">
     {#each greatThings as word}
       <p class="d-inline-block">{word}</p>
     {/each}
