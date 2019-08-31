@@ -10,8 +10,9 @@ This is a project template for [Svelte](https://svelte.dev) apps. It lives at ht
 To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
 
 ```bash
+mkdir project-name && cd project-name
 npx degit wmconnolly/strap-spinnaker-svelte
-cd strap-spinnaker-svelte
+npm install
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
