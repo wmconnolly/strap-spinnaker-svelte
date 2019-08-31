@@ -12,20 +12,15 @@ To create a new project based on this template using [degit](https://github.com/
 ```bash
 mkdir project-name && cd project-name
 npx degit wmconnolly/strap-spinnaker-svelte
+```
+Install the dependencies...
+
+```bash
 npm install
 ```
 
 *Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
-
-## Get started
-
-Install the dependencies...
-
-```bash
-cd strap-spinnaker-svelte
-npm install
-```
 
 ...then start [Rollup](https://rollupjs.org):
 
